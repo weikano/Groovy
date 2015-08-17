@@ -7,7 +7,16 @@ println list.inject {carryOver ,item ->
     carryOver +=1
 }
 
+list.identity {
+    list.add(6)
+    list.add(7)
+
+    println list
+}
+
 println list.join(" ")
+
+println list.dump()
 
 def numbers(a,b,c,d,e){
     println "$a $b $c $d $e"
