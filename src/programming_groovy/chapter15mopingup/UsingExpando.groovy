@@ -10,6 +10,8 @@ carA.miles = 10
 println "CAR A $carA"
 println "Car B $carB"
 
+//car = new Testasdfa()
+
 /**
  * inject method with key:closure
  */
